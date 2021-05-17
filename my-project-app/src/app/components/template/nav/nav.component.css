@@ -1,0 +1,82 @@
+/* tudo */
+
+.main {
+    background-image: url('Arte1_Home.png');    
+    align-items: center;
+    display: flex;
+    height: 610px;
+    justify-content: space-between;
+}
+
+/* coluna 1*/
+
+.column1 {
+    margin-left: 20%;
+}
+
+.foto-celular {
+    background-image: url('Teste-Phone.png');    
+    align-items: center;
+    justify-content: space-between;
+    height: 316px;
+    width: 390px;
+}
+
+.column1 p {
+    font-size: 30px;
+    font: bold;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    
+}
+
+.lojas {
+    margin: 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+img {
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+}
+
+/* coluna 2 */
+
+.column2 {
+    display: flex;
+    flex-direction: column;
+    margin-right: 20%;
+    width: 580px;
+}
+
+.rows {
+    display: flex;
+    flex-direction: row;
+}
+
+.row1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.delivery {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.row2 {
+    font-size: 44px;
+    display: flex;
+    align-items: center;
+    text-align: center; 
+    
+}
+
+.textao {
+    font-size: 20px;
+    margin-top: 50px;
+}

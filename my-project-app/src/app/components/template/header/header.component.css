@@ -1,0 +1,44 @@
+.header {
+    background-color: #161414;
+    color:#EBD700 ;
+    display:flex;
+    flex-grow: 1;
+    height: 10%;
+    justify-content: center;
+}
+
+.header .logo {
+    align-items: center;
+    font-size: 37px;
+    max-height: 37px;   
+    margin: 100px;
+}
+
+.header a {
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+    margin: 25px;
+    cursor: pointer;
+}
+
+.header :any-link {
+    color: #EBD700;
+}
+
+.header .title-group {
+    display: flex;
+    font-size: 18px;
+    max-height: 24px;
+    align-items: center;
+    justify-content: space-between;
+    margin: 25px;
+    color: #9E9E9E;
+}
+
+.header .title-group a:hover {
+    color: #EBD700;
+}
+
+
+
