@@ -1,0 +1,217 @@
+/* tudo */
+
+.main {
+    background-image: url("../../../assets/Arte1_Home.png");    
+    background-size: cover;
+    background-position: center;
+
+    height: 90%;
+    padding: 6.5rem 10rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+
+    @media (max-width: 1135px) {
+        padding: 0 2rem;
+        flex-direction: column;
+    }
+}
+
+div .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 15%;
+}
+
+.col1 p {
+    margin:0;
+    color: black;
+    font-size:15px;
+    display: flex;
+    justify-content: center;
+}
+
+div .col2 {
+    margin-right: 15%;
+    margin-left: 9%;
+}
+
+div .row {
+    display: flex;
+    justify-content: center;
+}
+
+div .delivery {
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+div .u2 {
+    font-size: 100px;
+    margin-bottom: 50px;
+}
+
+.paratodos {
+    margin-left: 20px;
+    padding-left: 40px;
+    font-size: 30px;
+}
+
+.textao1 {
+    text-align: left;
+    font-size: 16px;
+    margin-top: 100px;
+}
+
+div .col2-coluna1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div .baixe {
+    font-size: 30px;
+}
+
+div .lojas {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    margin: 30px;
+}
+
+div .img-appstore-inicio {
+    width: 100px;
+    height: 100%;
+}
+
+div .img-googleplay-inicio {
+    margin-left: 100px;
+    width: 120px;
+    height: 50px;
+}
+
+main {
+    background-image: url("../../../assets/Squaresv2_2-1.png"),
+      url("../../../assets/Squaresv2_1-1.png");
+    background-position: 85vw 50%, -35vw 50%;
+    background-repeat: no-repeat,no-repeat;
+    padding: 2rem;
+    text-align: center;
+    padding-bottom: 40vh;
+}
+
+.circle-area {
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    @media (max-width: 930px) {
+      flex-direction: column;
+    }
+}
+
+.circle {
+    width: 16rem;
+    height: 16rem;
+    background: #fff;
+    margin: 1rem;
+    border-radius: 50%;
+    box-shadow: 0px 3px 10px #00000033;
+}
+
+.card-title {
+    color: #ebd700;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.card-title-right {
+    color: #ebd700;
+    text-align:right;
+    margin-top: 40px;
+}
+  
+.card-left {
+    background: #161414;
+    border-radius: 1rem;
+    margin: 3rem;
+    width: 50%;
+    display: block;
+    margin: 3rem auto;
+    @media (max-width: 1150px) {
+    width: 100%;
+    }
+}
+
+.card-body {
+    display: flex;
+    text-align: left;
+    @media (max-width: 550px) {
+        flex-direction: column;
+    }
+}
+
+.img-user {
+    margin: 40px;
+    padding: 0px;
+}
+
+
+.card-right {
+      background: #161414;
+      border-radius: 1rem;
+      margin: 3rem;
+      width: 50%;
+      display: block;
+      margin: 3rem auto;
+      justify-content: center;
+      @media (max-width: 1150px) {
+        width: 100%;
+      }
+    }
+
+.card-body {
+    display: flex;
+    text-align: right;
+
+    @media (max-width: 550px) {
+        flex-direction: column;
+    }
+}
+
+.card-text {
+    color: #d4d4d4;
+    margin: 40px;
+    text-align: left;
+}
+
+.card-text-right {
+    color: #d4d4d4;
+    margin: 40px;
+    text-align: right;
+}
+
+.lojas-final {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.img-appstore {
+    width: 300px;
+}
+
+.img-googleplay {
+    width: 360px;
+}

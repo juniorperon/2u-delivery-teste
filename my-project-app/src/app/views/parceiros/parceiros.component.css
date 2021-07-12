@@ -1,0 +1,98 @@
+.homecontent {
+    height: 90%;
+    padding: 6.5rem 10rem;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    @media (max-width: 1135px) {
+      padding: 0 2rem;
+      flex-direction: column;
+      img {
+        width: 10rem;
+      }
+    }
+}
+
+.header-img {
+    top: 20%;
+    left: 0px;
+    width: 100%;
+    height: 20%;
+    opacity: 1;
+}
+  
+p {
+    margin-top: 2rem;
+    text-align: left;
+}
+  
+  
+  main {
+    background-image: url("../../../assets/Squaresv2_2-1.png"),
+      url("../../../assets/Squaresv2_1-1.png");
+    background-position: 85vw 50%, -35vw 50%;
+    background-repeat: no-repeat, no-repeat;
+    padding: 2rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    @media (max-width: 950px) {
+        width: 80vw;
+      }
+      @media (max-width: 600px) {
+        width: 95vw;
+      }
+    }
+  
+form {
+    margin-top: 4rem;
+    width: 55vw;
+    background-color: #161414;
+    border-radius: 2.5rem;
+}
+  
+.field {
+    width: 90%;
+    margin: 0.4rem;
+    background-color: #323233;
+    color: #ebd700;
+    border-radius: 0.2rem;
+}
+  
+label {
+    margin-top: 3rem;
+    margin-left: 1rem;
+    color: #fff;
+}
+
+a {
+    color: #ebd700;
+}
+      
+button {
+    background-color: #ebd700;
+    border-radius: 1.9rem;
+    padding: 0.3rem 30%;
+    margin: 3rem 0 10rem 0;
+    font-weight: bold;
+}
+
+h3 {
+    text-align: left;
+    padding: 3vh 3vw;
+    color: #ebd700;
+}
+
+section input {
+  background: #323233 0% 0% no-repeat padding-box;
+  border-radius: 6px;
+  opacity: 1;
+  margin: 10px;
+  padding: 10px;
+  border-color:#323233;
+}
+
+  

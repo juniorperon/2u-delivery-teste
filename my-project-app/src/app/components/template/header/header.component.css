@@ -1,29 +1,30 @@
 .header {
     background-color: #161414;
-    color:#EBD700 ;
     display:flex;
     flex-grow: 1;
     height: 10%;
     justify-content: center;
 }
 
-.header .logo {
+.logo {
     align-items: center;
     font-size: 37px;
     max-height: 37px;   
     margin: 100px;
+    color: #EBD700 !important;
+}
+
+a.active {
+    color: #EBD700 !important;
 }
 
 .header a {
     display: flex;
     justify-content: space-between;
     text-decoration: none;
+    color: #9E9E9E;
     margin: 25px;
     cursor: pointer;
-}
-
-.header :any-link {
-    color: #EBD700;
 }
 
 .header .title-group {
@@ -33,12 +34,10 @@
     align-items: center;
     justify-content: space-between;
     margin: 25px;
-    color: #9E9E9E;
+    
 }
 
 .header .title-group a:hover {
     color: #EBD700;
 }
-
-
 
